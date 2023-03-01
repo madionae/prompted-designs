@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: grid;
+    gap: 10px;
+    padding: 15px 20px;
+}
+
+#head-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home-btn {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #383636;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-top > ul, #nav-bottom > ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#nav-top > ul {
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul > * {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#nav-top > ul a {
+    padding: 8.5px 1.5rem;
+    color: #FFF;
+    background-color: rgb(235, 73, 24);
+}
+
+main {
+    background-color: rgb(247, 236, 236);
+    padding: 3rem;
+    text-align: center;
+}
+
+main > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+#contact-section {
+    display: flex;
+    gap: 3rem;
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+.contact img {
+    height: 80px;
+}
+
+.contact {
+    flex-basis: 100%;
+    padding: 0 4.5rem;
+}
+
+.contact:hover {
+    bottom: 10px;
+    left: 10px;
+    position: relative;
+}
+
+.contact > h3 {
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 2rem;
+}
+
+.contact:first-child p:first-of-type{
+    color: initial;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contact > p {
+    color: #666363;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.start-btn {
+    display: block;
+    padding: 1rem 0;
+    background-color: #fff;
+    color: initial;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .1s ease-in-out;
+}
+
+.start-btn:hover {
+    color: #FFF;
+    background-color: black;
+}

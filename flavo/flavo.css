@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* top section margins */
+#top-section {
+    padding: 1rem 2rem 0 2rem;
+    background-color: rgb(151, 170, 84);
+}
+
+#head-bg {
+    background-color: antiquewhite;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 55px;
+    padding: 0 1.5rem;
+}
+
+#head-bg > img {
+    height: 20px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+}
+
+#main-display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1.5rem;
+    padding: 5rem 0;
+}
+
+#main-msg {
+    flex: 1 1 33%;
+    min-width: 30vw;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#main-msg > * {
+    margin: 0;
+    padding: 0;
+}
+
+#main-msg > h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+#main-msg > a {
+    background-color: #000;
+    border-radius: 33px;
+    align-self: flex-start;
+    padding: .8rem 1.8rem;
+}
+
+#main-display > img {
+    flex: 1 1 65%;
+    min-width: 15vw;
+    width: 28vw;
+    height: 30rem;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+marquee {
+    background-color: #FFF;
+    display: flex;
+}
+
+#band, #msg-banner {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+main {
+    padding: 4rem 2rem;
+    background-color: antiquewhite;
+}
+
+.prod-sect {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.prod-container {
+    display: grid;
+    width: 430px;
+    border: 2px solid rgb(150, 96, 96);
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.prod-container > h4 {
+    font-size: 65px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.prod-container > button {
+    height: 40px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.h-text > img {
+    height: 350px;
+    margin: 1.5rem 0;
+}
